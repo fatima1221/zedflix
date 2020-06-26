@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+	max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.intro {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 50px;
+    font-family: 'Holtwood One SC', serif;
+    color: orangered;
+}
+
+.s-in {
+    display: inline;
+    border: 2px solid orangered;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.s-in:hover {
+    background-color: orangered;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    width: 100px;
+    height: 100pxq;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border: 1px solid orangered;
+    background-color: orangered;
+}
+
+.price:hover {
+    opacity: 0.7;
+}
+
+.btn {
+    margin: 20px;
+    padding: 20px;
+}
